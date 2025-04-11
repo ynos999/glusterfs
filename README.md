@@ -84,7 +84,7 @@
 #### apt update && apt upgrade glusterfs-server
 #### Gluster has active patching — security holes are patched quickly.
 
-#### If crush after security script:
+### If crush after security script:
 #### sudo systemctl reset-failed glusterd.service
 #### sudo systemctl start glusterd
 #### sudo systemctl status glusterd
